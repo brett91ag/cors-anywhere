@@ -87,7 +87,7 @@ jQuery.ajaxPrefilter(function(options) {
 ### Server
 
 The module exports `createServer(options)`, which creates a server that handles
-proxy requests. The following options are supported:
+proxy requests. The following options are supported: 
 
 * function `getProxyForUrl` - If set, specifies which intermediate proxy to use for a given URL.
   If the return value is void, a direct request is sent. The default implementation is
